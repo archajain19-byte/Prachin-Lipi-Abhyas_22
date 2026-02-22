@@ -6,7 +6,7 @@ from pathlib import Path
 import base64
 import pandas as pd
 from streamlit_autorefresh import st_autorefresh
-st.set_page_config(page_title="Prachin Lipi Abhyas", layout="centered", initial_sidebar_state="auto")
+st.set_page_config(page_title="Prachin Lipi Abhyas", layout="wide", initial_sidebar_state="auto")
 # Top banner
 st.markdown("""
 <style>
@@ -945,6 +945,7 @@ if main_option == "🔗 Important Links":
 
 if main_option == "🎮 Game Zone":
     show_game()
+
 
 
 
