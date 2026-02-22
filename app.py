@@ -200,9 +200,9 @@ def show_flashcards(cards):
 #st.sidebar.title("Navigation Bar")
 #st.sidebar.markdown("<br><br>", unsafe_allow_html=True)
 st.sidebar.image("logo.png", width=200)
-main_option = st.radio(
+main_option = st.sidebar.radio(
     "",
-    ["🏠 Home", "📜 Brahmi", "📖 Sharada", "🎮 Game Zone", "🔗 Important Links"], horizontal=True
+    ("🏠 Home", "📜 Brahmi", "📖 Sharada", "🎮 Game Zone", "🔗 Important Links")
 )
 st.markdown("""
 <style>
@@ -945,6 +945,7 @@ if main_option == "🔗 Important Links":
 
 if main_option == "🎮 Game Zone":
     show_game()
+
 
 
 
