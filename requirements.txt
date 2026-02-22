@@ -1,0 +1,5 @@
+streamlit
+streamlit-autorefresh
+Pillow
+pandas
+streamlit-drawable-canvas==0.9.3
